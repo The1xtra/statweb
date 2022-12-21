@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>Contact</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="index.html"><i class="bi bi-code-slash"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-warning"><i class="bi bi-three-dots"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-warning" aria-current="page" href="overmij.html">Over mij</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="hobby.html">Hobby</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="ervaring.html">Ervaring</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-warning" aria-current="page" href="vaardigheden.html">Vaardigheden</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-warning" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main class="bg-dark">
+        <form action="https://tm-statweb.be/forms.php" method="post">
+          <div class="card border-warning rounded-0">
+              <div class="card-header p-0">
+                  <div class="bg-dark text-warning text-center py-2">
+                      <h3><i class="bi bi-envelope"></i> Contact opnemen</h3>
+                      <p class="m-0">Via onderstaand formulier of via mijn socials.</p>
+                  </div>
+              </div>
+              <div class="card-body p-3 bg-dark">
+                
+                <!--Body-->
+
+                <div class="container text-center py-4">
+                  <button type="button" class="btn btn-warning"><a href="mailto:r0952755@student.thomasmore.be"><i class="bi bi-envelope-fill"> Mail</i></a></button>
+                  <button type="button" class="btn btn-warning"><a href="https://be.linkedin.com/in/giovanni-grasmichel-900322179?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="bi bi-linkedin"> Linked-in</i></a></button>
+                  <button type="button" class="btn btn-warning"><a href="https://github.com/The1xtra/statweb"><i class="bi bi-github"> Github</i></a></button>
+                  <button type="button" class="btn btn-warning"><a href="https://www.instagram.com/"><i class="bi bi-instagram"> Instagram</i></a></button>
+                  <button type="button" class="btn btn-warning"><a href="https://twitter.com/"><i class="bi bi-twitter"> Twitter</i></a></button>
+                </div>
+                <p class="fs-5 mb-2 text-light text-center py-3">Via onderstaand formulier een vraag stellen.</p>
+                  <div class="form-group">
+                      <div class="input-group mb-2">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text bg-dark"><i class="bi bi-person-circle text-warning"></i></div>
+                          </div>
+                          <input type="text" class="form-control" id="naam" name="naam" placeholder="Naam en voornaam" required>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="input-group">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text bg-dark"><i class="bi bi-envelope bg-dark text-warning"></i></div>
+                          </div>
+                          <input type="email" class="form-control" id="naam" name="email" placeholder="email-adress@hotmail.com" required>
+                      </div>
+                  </div>
+                  
+                    <div class="form-group">
+                        <div class="input-group my-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text bg-dark"><i class="bi bi-chat-dots-fill text-warning"></i></div>
+                            </div>
+                            <textarea class="form-control" placeholder="Uw vraag." required></textarea>
+                        </div>
+                    </div>
+                    <div class="container-fluid text-center text-warning">
+                      <p class="text-start form-check-inline pt-2">Welke skills trekken u meest aan?</p>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label " for="inlineCheckbox1">c#/.net</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">HTML 5 / CSS3</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option3">
+                        <label class="form-check-label " for="inlineCheckbox1">javascript</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option4">
+                        <label class="form-check-label " for="inlineCheckbox1">SQL</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option6">
+                        <label class="form-check-label " for="inlineCheckbox1">andere</label>
+                      </div>
+                    </div>
+
+                  <div class="text-center">
+                      <input type="submit" value="Verzenden" class="btn btn-warning btn-block rounded-0 py-2">
+                      <img src="/img/contact.jpg" class=" d-block m-auto py-4 h-75 w-75" alt="">
+                  </div>
+              </div>
+          </div>
+      </form>
+      
+  </main>
+  <div class="footer bg-dark border-top border-warning">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 left">
+          <p class="text-center text-muted py-4">©2022 Copyright Giovanni Grasmichel</p>
+        </div>
+        <div class="col-md-7 right">
+          <ul class="nav justify-content-center py-3">
+            <li class="nav-item"><a href="https://be.linkedin.com/in/giovanni-grasmichel-900322179?original_referer=https%3A%2F%2Fwww.google.com%2F" class="nav-link px-2 text-warning"><i class="bi bi-linkedin"></i></a></li>
+            <li class="nav-item"><a href="https://github.com/The1xtra/statweb" class="nav-link px-2 text-warning"><i class="bi bi-github"></i></a></li>
+            <li class="nav-item"><a href="mailto:r0952755@student.thomasmore.be" class="nav-link px-2 text-warning"><i class="bi bi-envelope-fill"></i></a></li>
+            <li class="nav-item"><a href="https://www.instagram.com/" class="nav-link px-2 text-warning"><i class="bi bi-instagram"></i></a></li>
+            <li class="nav-item"><a href="https://twitter.com/" class="nav-link px-2 text-warning"><i class="bi bi-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
